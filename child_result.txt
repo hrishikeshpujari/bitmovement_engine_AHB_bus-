@@ -1,0 +1,528 @@
+/home/morris/uvm-1.2
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 29 (Twenty Nine)' is not supported on 'x86_64'
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.3.6-100.fc29.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Mon Dec  9 21:54:50 2019
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[ACC_CLI_ON] ACC/CLI capabilities enabled
+  ACC/CLI capabilities have been enabled for the entire design. For faster 
+  performance enable module specific capability in pli.tab file
+
+Parsing design file '/home/morris/uvm-1.2/src/uvm.sv'
+Parsing included file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_version_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_global_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_message_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_phase_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_object_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_printer_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_sequence_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_callback_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_reg_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_deprecated_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_hdl.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_regex.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_coreservice.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_version.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_object_globals.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_misc.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_object.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_pool.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_queue.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_factory.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_registry.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_spell_chkr.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource_specializations.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource_db.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_config_db.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_printer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_comparer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_packer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_links.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_tr_database.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_tr_stream.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_recorder.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_event_callback.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_event.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_barrier.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_callback.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_callback.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_message.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_catcher.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_server.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_handler.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_object.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_transaction.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_domain.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_bottomup_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_topdown_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_task_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_common_phases.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_runtime_phases.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_component.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_root.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_component.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_objection.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_heartbeat.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_globals.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_cmdline_processor.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_traversal.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_set_get_dap_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_simple_lock_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_set_before_get_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_port_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_ports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_exports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_analysis_port.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_sqr_connections.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_pair.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_policies.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_in_order_comparator.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_random_stimulus.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_subscriber.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_monitor.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_driver.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_push_driver.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_scoreboard.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_agent.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_env.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_test.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_item.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_param_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_push_sequencer.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_library.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_builtin.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_time.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_item.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_adapter.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_predictor.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_sequence.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_cbs.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_backdoor.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_field.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_vreg_field.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_indirect.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_fifo.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_file.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_mem_mam.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_vreg.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_mem.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_map.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_block.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Back to file '/home/morris/uvm-1.2/src/uvm.sv'.
+Parsing design file 'child.sv'
+Parsing included file 'ahb_if.sv'.
+Back to file 'child.sv'.
+Parsing included file 'bitmove_intf.svh'.
+Back to file 'child.sv'.
+Parsing included file 'lcdif.sv'.
+Back to file 'child.sv'.
+Parsing included file 'tbregs.sv'.
+Back to file 'child.sv'.
+Parsing included file 'tbdef.sv'.
+Back to file 'child.sv'.
+Parsing included file 'lcduvm.svp'.
+Back to file 'child.sv'.
+Parsing included file 'seq8.svh'.
+Back to file 'child.sv'.
+Parsing included file 'bmtx.svp'.
+Back to file 'child.sv'.
+Parsing included file 'ahbfab.sv'.
+Back to file 'child.sv'.
+Parsing included file 'bitmove.sv'.
+Back to file 'child.sv'.
+Parsing included file 'ahb_bmaster.sv'.
+Back to file 'child.sv'.
+Parsing included file 'lcd.svp'.
+Parsing included file 'lcd_master.svp'.
+Back to file 'lcd.svp'.
+Parsing included file 'lcd_fifo.sv'.
+Back to file 'lcd.svp'.
+Parsing included file 'pixelpipe.sv'.
+Back to file 'lcd.svp'.
+Parsing included file 'gsxor.sv'.
+Back to file 'lcd.svp'.
+Back to file 'child.sv'.
+Parsing included file 'mem32x32.sv'.
+Back to file 'child.sv'.
+Parsing included file 'mem128x32.sv'.
+Back to file 'child.sv'.
+Parsing included file 'mem256x32.sv'.
+Back to file 'child.sv'.
+Top Level Modules:
+       top
+TimeScale is 1 ns / 10 ps
+
+Warning-[INTFDV] VCD dumping of interface/program/package
+  Selective VCD dumping of interface 'sAHBIF' is not supported.  Selective VCD
+  dumping for interfaces, packages and programs is not supported.   Results 
+  are not guaranteed.
+  Use VPD or FSDB dumping, recompile with +vcsd, or use full VCD dumping 
+  '$dumpvars(0)'.
+
+Starting vcs inline pass...
+20 modules and 0 UDP read.
+	However, due to incremental compilation, only 2 modules need to be compiled.
+recompiling package uvm_pkg because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module top because:
+	This module or some inlined child module(s) has/have been modified.
+Both modules done.
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_0_1.so --whole-archive pre_vcsobj_0_1.a --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  uvm_dpi.o  _csrc1.so _csrc0.so  pre_vcsobj_0_1.so pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /apps/synopsys/VCSMX_NEW/linux/lib/libzerosoft_rt_stubs.so /apps/synopsys/VCSMX_NEW/linux/lib/libvirsim.so /apps/synopsys/VCSMX_NEW/linux/lib/librterrorinf.so /apps/synopsys/VCSMX_NEW/linux/lib/libsnpsmalloc.so    /apps/synopsys/VCSMX_NEW/linux/lib/libvcsnew.so /apps/synopsys/VCSMX_NEW/linux/lib/libuclinative.so   -Wl,-whole-archive /apps/synopsys/VCSMX_NEW/linux/lib/libvcsucli.so -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/synopsys/VCSMX_NEW/linux/lib/vcs_save_restore_new.o /apps/synopsys/VCSMX_NEW/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 4.942 seconds to compile + .048 seconds to elab + .250 seconds to link
+
+Note-[RT_BS] Larger stack needed
+  Note: Bumping stack limit from 8192 to 8250 Kbytes.
+
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Dec  9 21:54 2019
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test tseq...
+UVM_INFO lcduvm.svp(5) @ 0: uvm_test_top.lcdBench [version] 0.003
+UVM_INFO seq8.svh(275) @ 0: uvm_test_top.seqr@@seq8_1 [wait] Generating testcases (About 1 min delay)
+
+ First 5 Chain blocks for unit  0
+- - - - - - - - - - - - - -
+017e9504 data 4d733ec4
+017e9508 data 75867ae8
+017e950c data 0000005b
+017e9510 data 79ef2255
+017e9514 data 08000000
+017e9518 data 00000001
+- - - - - - - - - - - - - -
+4d733ec4 data 385bef00
+4d733ec8 data 5233bd46
+4d733ecc data 100000fd
+4d733ed0 data 99665fa2
+4d733ed4 data 00000000
+4d733ed8 data 00000001
+- - - - - - - - - - - - - -
+385bef00 data 5680634c
+385bef04 data 56bd8cd9
+385bef08 data 1800002e
+385bef0c data 68fd971b
+385bef10 data 00000000
+385bef14 data 00000001
+- - - - - - - - - - - - - -
+5680634c data 01be066c
+56806350 data 498b353d
+56806354 data 10000092
+56806358 data d99e6ea5
+5680635c data 00000000
+56806360 data 00000001
+- - - - - - - - - - - - - -
+01be066c data 6fd11764
+01be0670 data 366066ac
+01be0674 data 100000cb
+01be0678 data f2a638f4
+01be067c data 08000000
+01be0680 data 00000001
+
+ First 5 Chain blocks for unit  1
+- - - - - - - - - - - - - -
+240984f8 data 3d429f68
+240984fc data 0faeb6ce
+24098500 data 1800003f
+24098504 data b2930239
+24098508 data 10000000
+2409850c data 00000001
+- - - - - - - - - - - - - -
+3d429f68 data 62777970
+3d429f6c data 15ddc23b
+3d429f70 data 180000f3
+3d429f74 data 8b766f88
+3d429f78 data 08000000
+3d429f7c data 00000001
+- - - - - - - - - - - - - -
+62777970 data 54f43588
+62777974 data 8b5fb1df
+62777978 data 00000092
+6277797c data be884903
+62777980 data 00000000
+62777984 data 00000001
+- - - - - - - - - - - - - -
+54f43588 data 67d013d4
+54f4358c data 030ae11e
+54f43590 data 100000c7
+54f43594 data d041c603
+54f43598 data 00000000
+54f4359c data 00000001
+- - - - - - - - - - - - - -
+67d013d4 data 225c44e0
+67d013d8 data 4cfcd928
+67d013dc data 000000fc
+67d013e0 data b8778cf5
+67d013e4 data 00000000
+67d013e8 data 00000001
+UVM_INFO seq8.svh(284) @ 0: uvm_test_top.seqr@@seq8_1 [wait] Generated   519540 memory locations for bitmove
+UVM_INFO bmtx.svp(2) @ 0: uvm_test_top.memModel [debug] Memory copied
+src 0075867ae8 (000eb0cf5d) dest 0179ef2255 (002f3de44a) len 000005b
+               44200 Writing 1087d5a9 to 2f3de448
+               45200 Writing 666b0c57 to 2f3de44c
+               46200 Writing f480823b to 2f3de450
+               50200 Writing 3ce509e3 to 2f3de454
+               89200 Writing 1369c5fe to 132ccbf4
+               90200 Writing 07e9ed1f to 132ccbf8
+               93200 Writing f2e5b2d3 to 132ccbfc
+               94200 Writing 3e24b271 to 132ccc00
+               97200 Writing 1583baae to 132ccc04
+               98200 Writing 69f14c0c to 132ccc08
+ 4283306004 wait for zero finished at            133966000
+ 4283306036 wait for zero finished at            133988000
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1271) @ 133998000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 133998000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+Quit count :     0 of    10
+** Report counts by severity
+UVM_INFO :    7
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[debug]     1
+[version]     1
+[wait]     2
+
+$finish called from file "/home/morris/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time            133998000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1339980000 ps
+CPU Time:      3.870 seconds;       Data structure size:   0.3Mb
+Mon Dec  9 21:55:04 2019
